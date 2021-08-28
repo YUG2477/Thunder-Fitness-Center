@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder Fitness Center</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* css reset  */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/abs11.jpg);
+            font-family: 'Baloo Da 2', cursive;
+        }
+
+        .left {
+            /* border: 2px white solid; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+
+
+
+        }
+
+        .center {
+            /* border: 2px rgb(97, 160, 24) solid; */
+            display: block;
+            width: 37%;
+            margin: 15px auto;
+
+
+        }
+
+        .right {
+            /* border: 2px rgb(248, 13, 236) solid; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 40px;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 19px;
+        }
+
+        .navbar li a {
+
+            color: white;
+            text-decoration: none;
+            padding: 16px 15px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left div {
+            line-height: 13px;
+            font-size: 13px;
+        }
+
+        .left img {
+            padding: 10px;
+            height: 48px;
+            filter: invert(100%);
+            margin: auto;
+            display: block;
+        }
+
+        .logo {
+            font-family: 'Baloo Da 2', cursive;
+            text-align: center;
+        }
+
+        .btn {
+            margin: 2px 15px;
+            color: white;
+            background-color: black;
+            padding: 5px 10px;
+            border: #696767 2px solid;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Baloo Da 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 90px 700px;
+            padding: 40px 96px;
+            display: block;
+            width: 30%;
+            height: 134%;
+            border-radius: 28px;
+        }
+        h2{
+            margin: 7px -29px;
+    padding: 9px 7px;
+        }
+        .form-group input{
+            border: 2px solid black;
+            border-radius: 18px;
+            text-align: center;
+            color: black;
+            display: block;
+            width: 76%;
+            padding: 2px 14px;
+            margin: 8px auto;
+            font-size: 17px;
+            font-family: 'Baloo Da 2', cursive;
+
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- its for logo in left side  -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div class="logo">THUNDER FITNESS</div>
+        </div>
+        <!--  its for navigation bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active1">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- its for botton or search -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email</button>
+            <button class="btn">Our Social</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2> JOIN BEST GYM OF AHMEDABAD NOW</h2>
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+           
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div> 
+              <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div> 
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
